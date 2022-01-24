@@ -25,7 +25,7 @@ group = "com.shoppe"
 version = "0.0.1"
 
 application {
-    mainClassName = "com.shoppe.ServerKt"
+    mainClassName = "com.adwi.shoppe.ServerKt"
 }
 
 tasks.withType<Jar> {
