@@ -2,7 +2,7 @@ val ktorVersion = "1.6.7"
 val kotlinVersion = "1.4.21"
 val logbackVersion = "1.2.10"
 val kGraphQLVersion = "0.17.14"
-val kMongoVersion = "4.4.0"
+val kMongoVersion = "4.5.0"
 val bcryptVersion = "0.9.0"
 val kodein = "7.10.0"
 
