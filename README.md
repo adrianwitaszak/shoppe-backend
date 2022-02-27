@@ -1,27 +1,32 @@
 # \[ 🚧 Work in progress 👷‍♀️⛏👷🔧️👷🔧 🚧 \]
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=shoppe)
-![](https://img.shields.io/github/stars/shoppe/pexwallpapers)
-![](https://img.shields.io/github/forks/shoppe/pexwallpapers)
-![](https://img.shields.io/github/watchers/shoppe/pexwallpapers)
-![](https://img.shields.io/github/commit-activity/m/shoppe/pexwallpapers)
-![](https://img.shields.io/github/last-commit/shoppe/pexwallpapers)
-![](https://img.shields.io/github/repo-size/shoppe/pexwallpapers)
-![](https://img.shields.io/tokei/lines/github/shoppe/pexwallpapers)
-![](https://img.shields.io/github/languages/count/shoppe/pexwallpapers)
-![](https://img.shields.io/github/languages/top/shoppe/pexwallpapers)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=shoppe-backend)
+![](https://img.shields.io/github/stars/adrianwitaszak/shoppe-backend)
+![](https://img.shields.io/github/forks/adrianwitaszak/shoppe-backend)
+![](https://img.shields.io/github/watchers/adrianwitaszak/shoppe-backend)
+![](https://img.shields.io/github/commit-activity/m/adrianwitaszak/shoppe-backend)
+![](https://img.shields.io/github/last-commit/adrianwitaszak/shoppe-backend)
+![](https://img.shields.io/github/repo-size/adrianwitaszak/shoppe-backend)
+![](https://img.shields.io/tokei/lines/github/adrianwitaszak/shoppe-backend)
+![](https://img.shields.io/github/languages/count/adrianwitaszak/shoppe-backend)
+![](https://img.shields.io/github/languages/top/adrianwitaszak/shoppe-backend)
 
-# Shoppe App backend
+# Shoppe App - Backend
 
-Kotlin and Ktor app, which can easily be deployed to Heroku.
+Backend for Shoppe Multiplatform App using [Ktor](https://ktor.io/) as a server. All data is stored on [MongoDB](https://www.mongodb.com/) (modern
+cloud based database service). Server communicates with database using [GraphQL](https://github.com/pgutkowski/KGraphQL)
+. Backend is deployed on [Heroku](https://www.heroku.com/).
 
-This application supports the [Getting Started with Java on Heroku](https://devcenter.heroku.com/articles/getting-started-with-java) article - check it out.
+This application supports
+the [Getting Started with Java on Heroku](https://devcenter.heroku.com/articles/getting-started-with-java) article -
+check it out.
+
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Running Locally
 
-Make sure you have Java and Maven installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
+Make sure you have Java and Maven installed. Also, install the [Heroku Tool belt](https://toolbelt.heroku.com/).
 
 ```sh
 $ git clone https://github.com/orangy/ktor-heroku-start.git
