@@ -4,7 +4,7 @@ val logbackVersion = "1.2.10"
 val kGraphQLVersion = "0.17.14"
 val kMongoVersion = "4.4.0"
 val bcryptVersion = "0.9.0"
-val kodein = "7.10.0"
+val kodein = "7.13.0"
 
 plugins {
     application
